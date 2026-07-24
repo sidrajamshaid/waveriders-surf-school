@@ -14,14 +14,29 @@
 
   <nav>
     <a href="#about" class="about-button">About</a>
-    <a href="#courses">Courses</a>
-    <a href="#shop">Shop</a>
+    <a href="#courses" class="courses-button">Courses</a>
+    <a href="#shop" class="shop-button">Shop</a>
     <a href="#contact" class="contact-button">Contact</a>
   </nav>
 
-  <span class="menu-icon">☰</span>
+  <span id="menu-button" class="menu-icon">☰</span>
 </header>
+<div id="mobile-menu" class="mobile-menu">
 
+  <div class="mobile-menu-top">
+    <img src="images/Block.png" alt="WaveRiders logo">
+    <span id="close-button" class="close-icon">✕</span>
+  </div>
+
+  <div class="mobile-menu-links">
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#shop">Shop</a>
+  </div>
+
+  <a href="#contact" class="mobile-contact-button">Contact</a>
+
+</div>
   <main>
     <section class="hero">
       <h1>WaveRiders squirrel surf school</h1>
@@ -84,8 +99,7 @@
     <h3>“Absolutely loved it!”</h3>
     <div class="customer">
     <img src="images/walnut.png" alt="Walnut Willie">
-        <p class="customer-name">Walnut Willie</p><br><br>
-    <p class="customer-description">35, Botanist</p>
+    <p><b>Walnut Willie</b><br>35, Botanist</p>
    </div>
   </div>
 
@@ -93,7 +107,7 @@
       <h3>“Great time!”</h3>
        <div class="customer">
        <img src="images/hazelnut.png" alt="Hazelnut Hanne">
-       <p>Hazelnut Hanne<br>27, Industrial climber</p>
+      <p><b>Hazelnut Hanne</b><br>27, Industrial climber</p>
        </div>
     </div>
 
@@ -101,7 +115,7 @@
       <h3>“What a blast!”</h3>
       <div class="customer">
         <img src="images/peanut.png" alt="Peanut Patty">
-        <p>Peanut Patty<br>24, Delivery rider</p>
+        <p><b>Peanut Patty</b><br>24, Delivery rider</p>
       </div>
     </div>
 
@@ -147,5 +161,6 @@
   </div>
 
 </footer>
+<script src="script.js" ></script>
 </body>
 </html>
