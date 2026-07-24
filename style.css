@@ -105,7 +105,26 @@ nav a {
 
 .feature {
   width: 33.33%;
+
 }
+.about-section p{
+  color: #757575;
+}
+.about-section h2, .about-section h3{
+  color: #1E1E1E;
+}
+
+ .feature-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.feature-title img {
+  width: 32px;
+  height: 32px;
+}
+
 
 /* Testimonials */
 
@@ -170,6 +189,7 @@ footer {
 
 .footer-brand {
   width: 18%;
+
 }
 
 .footer-content > div {
@@ -186,7 +206,16 @@ footer {
   width: 5rem;
 }
 
-
+.footer-logos{
+  display: flex;
+  gap: 12px;
+  align-items:center;
+  
+}
+.footer-logos img{
+  width: 24px;
+  height: 24px;
+}
 
 /* Mobile */
 
